@@ -11,8 +11,6 @@
 
     <body style="margin: 0; overflow: hidden;">
         <a-scene
-            cursor='rayOrigin: mouse; fuse: true; fuseTimeout: 0;'
-            raycaster="objects: [gps-projected-entity-place];"
             renderer="logarithmicDepthBuffer: true;"
             embedded
             loading-screen="enabled: false;"
@@ -28,8 +26,7 @@
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="30 30 30"
-                    link="href: https://en.wikipedia.org/wiki/Nanyang_Technological_University"
+                    scale="100 100 100"
                     gps-entity-place="latitude: 1.343646; longitude: 103.684075;"
                 ></a-entity>
 
