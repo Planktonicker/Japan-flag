@@ -12,7 +12,7 @@
     <body style="margin: 0; overflow: hidden;">
        <a-scene
             cursor='rayOrigin: mouse; fuse: true; fuseTimeout: 0;'
-            raycaster="objects: [gps-projected-entity-place];"
+            raycaster="objects: [gps-entity-place];"
             vr-mode-ui='enabled: false'
             embedded
             arjs='sourceType: webcam; debugUIEnabled: false'
@@ -51,57 +51,6 @@
                     gltf-model="#animated-asset"
                     scale="30 30 30"
                     gps-entity-place="latitude: 1.28437123; longitude: 103.786123;"
-                ></a-entity>
-                
-                <a-entity
-                    look-at="[gps-camera]"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset"
-                    scale="15 15 15"
-                    gps-entity-place="latitude: 1.281139; longitude: 103.785250;"
-                ></a-entity>
-
-                <a-entity
-                    look-at="[gps-camera]"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset2"
-                    scale="200 200 200"
-                    gps-entity-place="latitude: 1.288302; longitude: 103.795491;"
-                    position="0 -100 0"
-                ></a-entity>
-
-                <a-entity
-                    look-at="[gps-camera]"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset2"
-                    scale="200 200 200"
-                    gps-entity-place="latitude: 1.288561; longitude: 103.794779;"
-                    position="0 -100 0"
-                ></a-entity>
-
-                <a-entity
-                    look-at="[gps-camera]"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset2"
-                    scale="200 200 200"
-                    gps-entity-place="latitude: 1.288979; longitude: 103.794028;"
-                    position="0 -100 0"
-                ></a-entity>
-
-                  <a-entity
-                    look-at="[gps-camera]"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset3"
-                    scale="50 50 50"
-                    gps-entity-place="latitude: 1.274931; longitude: 103.809010;"
-                ></a-entity>
-
-                 <a-entity
-                    look-at="[gps-camera]"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset4"
-                    scale="150 150 150"
-                    gps-entity-place="latitude: 1.282511; longitude: 103.799516;"
                 ></a-entity>
                 <a-link
                     look-at="[gps-camera]"
